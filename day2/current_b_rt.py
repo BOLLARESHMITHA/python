@@ -1,6 +1,5 @@
 def cal_current_bill(nu,na,t):
-    rem=t
-    cost=0
+    rem=t,cost=0
     if(rem>50):
         cost+=(50*3.8)
         rem-=50
